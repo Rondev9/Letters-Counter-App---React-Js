@@ -1,0 +1,46 @@
+.lettersCalculatorAppContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  padding: 40px;
+}
+.lettersCalculatorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto';
+  flex-wrap: wrap;
+  width: 300px;
+}
+.title {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 400;
+}
+.inputDescription {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.inputBox {
+  border: 1px solid #e4e7eb;
+  outline: none;
+  color: #ffffff;
+  padding: 3px;
+  background-color: transparent;
+  width: 100%;
+}
+.lettersCount {
+  background-color: #ffffff;
+  color: #219a6f;
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  text-align: left;
+  align-self: center;
+}
